@@ -1,0 +1,21 @@
+.esh1{
+    color:magenta
+}
+.esh2{
+    color:hsl(256, 100%, 50%)
+}
+.div1{
+    width:250px;
+    height:250px;
+    background-color:lightpink;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 7px solid;
+    border-color: blue;
+    margin-top: 25px;
+    margin-left: 550px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+    border-style:dotted;
+    box-shadow: 100px;
+}

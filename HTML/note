@@ -1,0 +1,194 @@
+// this is the parent class in html
+
+//syntax
+selector    property    value
+a{background-color:yellow;}
+ declaration start
+
+//division tag
+<div class="my div">
+    <h2></h2>
+    <p></p>
+</div>
+
+//image tag
+<img src="img_girl.jpg" alt=
+    <b> bold test
+    <strong> important text
+    <i> italic text
+    <em> emphasized text
+    <mark> marked test 
+    <small> smaller text
+    <del> deleted text
+    <ins> inserted text 
+    <sub> subscript text
+    <sup> superscript text
+
+//block elements
+<address></address>
+<dt></dt>
+<hr></hr>
+<section></section>
+<article></article>
+<fieldset></fieldset>
+<li></li>
+<table></table>
+<aside></aside>
+<figcaption></figcaption>
+<main></main>
+<tfoot></tfoot>
+<blockquote></blockquote>
+<figure></figure>
+<nav></nav>
+<ul></ul>
+<canvas></canvas>
+<footer></footer>
+<noscript></noscript>
+<video></video>
+<dd></dd>
+<form></form>
+<ol></ol>
+<div></div>
+
+//src & alt atttribulte
+<img src="example.jpg" alt="beautiful landscape">
+//width and height
+<img src = "example.jpg" alt="beautiful landscape" width="500" height="30">
+//ordered list                          //unordered list
+<ol>                                     <ul></ul>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+</ol>
+//TR
+<tr> elements defines table row</tr>
+//TH
+<th></th> elements used to define header cell in table .header cels ar typically used in the first row or column to label content
+//TD
+<td></td> element defines a standard data cell in table
+//eg
+<table border =1>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>kohli</td>
+        <td>35</td>
+    </tr>
+</table>
+// 
+<input type="text"> display single line lext input field
+<input type="radio"> display radio button (for selectiong one of many choice)
+<input type="submit"> display submit button(for submitting form)
+<input type="checkbox"> display chekcbox(for selecting zero or more of many choices)
+<input type="button"> display clickable button
+<form>
+    <p>first name</p>
+    <input type ="text">
+    <p>Last name</p>
+    <input type="text"><br>
+    <input type="submit" value="submit">
+</form>
+// to make css interior
+this outer
+
+<style>.div1{
+    width:100px;
+    height:100px;
+    background-color: mediumslateblue;
+}
+h1{
+    color: darkred    }
+p{
+    color:blueviolet;
+}
+li{
+    color:darkblue;
+}
+</style>   
+this is inter
+
+<div class="div1">This is CSS</div>
+
+// css selectors
+ element selector-> select all instance of the class
+ p{
+    color:blue;
+ }
+ class selectorsid selector -> select element with specific class attribue
+ .highlight{
+    background-color:yellow;
+ }
+ id selector -> select element with a specific class attribute
+ #header{
+    font-size:24px;
+ }
+ attribute selector  ->  select element based on their attribute values
+ <input type="text">{
+    border:0px solid ;
+ }
+ universal selectors -> select all element
+ *c{
+    margin:0;
+    padding:0;
+ }
+
+ //box model
+  content -> actual content of box
+  paddling 
+  border
+  margin
+
+ // position
+static-> default value
+fixed -> box not move
+sticky-> move particular and then fixed
+absolute-> see floating value
+relative-> particular position to move
+
+
+//MERN stack developer
+  html,css& js    react    node   express   mangoDB    connecting&debugging on GIT
+
+  //margin
+  1 value top
+  2 value right
+  3 value bottom
+ 4 value left
+ two value x axis and y axis
+
+ <span><font color="white" size="60" font="verdana">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><b>ZOMATO</b></i></font><br></span>
+
+ //flex box
+
+ css felxbox(flexible box layout)is a layout model designed to create complex and flexible layouts more efficiently than traditional models.
+
+ syntax
+    display:flex;
+*display flex
+*felxdirection
+
+row:
+    justify content -> x direction
+    allign items -> y direction
+ 
+column:
+    justify content -> y direction
+    allign items -> x direction
+    
+justify content for row
+to make space on parent (space-around)
+to make space even on parent (space-even)
+space between only on parent not on ending (space-between)
+
+allign items for row
+ to make center (center)
+
+ justify content for column
+ same as row
+
+ allign item for column
+ same as row
+
+ flex-wrap:wrap;

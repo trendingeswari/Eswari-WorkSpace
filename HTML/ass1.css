@@ -1,0 +1,17 @@
+.esh{
+    background-color: #faac25;
+    background-image: linear-gradient(to bottom right,yellow,red);
+    width:500px;
+    height:550px;
+    border:2px solid;
+    border-radius:25px;
+    padding:25px;
+    }
+    img{
+        border-radius:10px;
+        width:100%;
+    }
+    png{
+        border-radius:10px;
+        width: 100%;
+    }

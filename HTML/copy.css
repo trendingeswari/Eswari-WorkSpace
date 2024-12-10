@@ -1,0 +1,15 @@
+.esh{
+    width:500px;
+    height:600px;
+    border:2px solid;
+    border-radius:25px;
+    padding:25px;
+    }
+    img{
+        border-radius:10px;
+        width:100%;
+    }
+    png{
+        border-radius:10px;
+        width: 100%;
+    }

@@ -1,0 +1,28 @@
+.esh{
+    background-color: whitesmoke;
+    background-image: linear-gradient(to bottom right,white,hsl(25, 30%, 41%));
+    width:500px;
+    height:550px;
+    border:2px solid;
+    border-radius:25px;
+    border-style: hidden;
+    padding:0px;
+    }
+    img{
+        border-radius:10px;
+        width:100%;
+    }
+    png{
+        border-radius:10px;
+        width: 100%;
+    }
+
+    span{
+        padding:1px 2px;
+        background-color:blue;
+        margin: 10px;
+        margin-top: 365px;
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+    }
